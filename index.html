@@ -43,8 +43,8 @@
   </div>
 </header>
 
-<body style="margin: 0px;" class="body">
-  <div class="bio">
+<body style="margin: 0px;" class="body" id="body">
+  <div class="bio" id="bio">
     Hi, I'm Aidan Khan.
     <div class="greeting" style="font-size: 30px; margin-top: 50px; text-align: center;">
       Scroll down to explore my projects.
@@ -52,6 +52,85 @@
   </div>
   <!--grid for projects-->
   <div class="grid">
+    <!--button for project-->
+    <div class="projbtn">
+      <div id="proj2" class="button">
+        <div class="button-inner">
+          <div class="button-front" style="background-image: url(/assets/DARTM.jpg);">
+          </div>
+          <div class="button-back">
+            <div>
+              <div style="display: flex;">
+                <div class="projtitle">DARTS</div>
+                <div class="date">12/2025</div>
+              </div>
+              <div class="tag-title" style="margin-top:15px;">
+                Tools
+              </div>
+              <div class="tagcontainer">
+                <div class="tag">Javascript</div>
+                <div class="tag">Aseprite</div>
+              </div>
+              <div class="tag-title" style="margin-top: 50px;">
+                Skills
+              </div>
+              <div class="tagcontainer">
+                <div class="tag">Game Design</div>
+                <div class="tag">Programming</div>
+                <div class="tag">UI/UX</div>
+              </div>
+            </div>
+            <div class="prescript" style="margin-top: 15px;"> This project was a school project where we were tasked
+              with creating 3
+              seperate variations of an existing project. Mine is based on Darts, where each game (as well as the menu)
+              is controlled by throwing
+              darts.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--button for project-->
+    <div class="projbtn">
+      <div id="proj3" class="button">
+        <div class="button-inner">
+          <div class="button-front" style="background-image: url(/assets/Gx3.png);">
+          </div>
+          <div class="button-back">
+            <div>
+              <div style="display: flex;">
+                <div class="projtitle">GAMBLE</div>
+                <div class="date">11/2024</div>
+              </div>
+              <div class="tag-title" style="margin-top:15px;">
+                Tools
+              </div>
+              <div class="tagcontainer">
+                <div class="tag">Javascript</div>
+                <div class="tag">P5.JS</div>
+              </div>
+              <div class="tag-title" style="margin-top: 50px;">
+                Skills
+              </div>
+              <div class="tagcontainer">
+                <div class="tag">Game Design</div>
+                <div class="tag">Programming</div>
+              </div>
+            </div>
+            <div class="prescript" style="margin-top: 15px;">
+              This game was part of a school project
+              called the
+              Modification Jam, where a pre-written script had to be modified to create a new experience. The original
+              script
+              was named
+              FrogFrogFrog, where the objective of the game was to catch flies travelling across the screen with the
+              tongue of the
+              frog.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!--button for project-->
     <div class="projbtn">
       <div id="proj1" class="button">
@@ -85,55 +164,90 @@
         </div>
       </div>
     </div>
+    <!--button for project-->
     <div class="projbtn">
-      <button id="proj1" class="button">
-        <img src="assets/jerma.png" alt="Image" width="400" height="400">
-        <div class="projtitle">Project</div>
-      </button>
+      <div id="proj2" class="button">
+        <div class="button-inner">
+          <div class="button-front"
+            style="background-image: url(/assets/FafnirRender2.png); background-color: rgb(73, 0, 0);">
+          </div>
+          <div class="button-back">
+            <div>
+              <div style="display: flex;">
+                <div class="projtitle">FAFNIR</div>
+                <div class="date">01/2024</div>
+              </div>
+              <div class="tag-title" style="margin-top:15px;">
+                Tools
+              </div>
+              <div class="tagcontainer">
+                <div class="tag">Blender</div>
+                <div class="tag">Clip Studio Paint</div>
+              </div>
+              <div class="tag-title" style="margin-top: 50px;">
+                Skills
+              </div>
+              <div class="tagcontainer">
+                <div class="tag">Character Design</div>
+                <div class="tag">Sculpting</div>
+                <div class="tag">Texturing</div>
+                <div class="tag">Animation</div>
+                <div class="tag">Rigging</div>
+              </div>
+            </div>
+            <div class="prescript" style="margin-top: 15px;">
+              Fully produced 3D model. Designed to explore rigging of non-human
+              characters with
+              a custom rig featuring inverse kinematic limbs. Intended to practice full pipieline of 3D
+              creature/character
+              development.
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="projbtn">
-      <button id="proj1" class="button">
-        <img src="assets/jerma.png" alt="Image" width="400" height="400">
-        <div class="projtitle">Project</div>
-      </button>
-    </div>
-    <div class="projbtn">
-      <button id="proj1" class="button">
-        <img src="assets/jerma.png" alt="Image" width="400" height="400">
-        <div class="projtitle">Project</div>
-      </button>
-    </div>
+  </div>
 </body>
 
-<dialog id="popup" class="popup">
+<dialog id="popup" class="popup"
+  style="background: black; color:white; padding:10px; border-style: solid; border-width: 1px; border-radius: 10px;">
   <div style="max-width: 90vw; max-height: 90vh;">
-    <button id="close" style="padding: 5px; cursor: pointer; position:absolute; left: 15vw; top: 4.5vh;">X</button>
-    <div
-      style="background: white; padding:10px; border-style: solid; border-width: 1px; border-radius: 10px; position:absolute; left: 15vw; top: 8vh">
-      <img src="assets/jerma.png" alt="Image" width="1320" height="500">
+    <div id="close" class="close-btn">X</div>
+    <div>
+      <img style="border-radius: 5px;" src="assets/Office.png" alt="Image" width="1344px" height="740px">
       <div style="display: flex;">
-        <div class="projtitle" style="margin-bottom: 20px;">Project</div>
-        <div class="date">date</div>
+        <div class="projtitle" style="margin-bottom: 20px;">OFFICE</div>
+        <div class="date">03/2024</div>
       </div>
       <div style="display: flex;">
         <div>
-          <div style="text-align: left; margin-top: 5px;">
-            tools
+          <div class="tag-title" style="text-align: left;">
+            Tools
           </div>
-          <div class="tagcontainer">
-            <div class="tag">sus</div>
-            <div class="tag">baka</div>
+          <div class="tagcontainer" style="margin-bottom: 20px;">
+            <div class="tag">Blender</div>
           </div>
-          <div style="text-align: left; margin-top: 5px;">
-            skills
+          <div class="tag-title" style="text-align: left;">
+            Skills
           </div>
-          <div class="tagcontainer" style="margin-bottom: 5px;">
-            <div class="tag">sus</div>
-            <div class="tag">baka</div>
-            <div class="tag">among us</div>
+          <div class="tagcontainer" style="margin-bottom: 35px;">
+            <div class="tag">3D Modelling</div>
+            <div class="tag">Scene Design</div>
           </div>
         </div>
-        <div style="margin-left: auto;"> description</div>
+        <div class="prescript" style="margin-left: auto; margin-top:10px; width: 900px;"> 3D scene incorporating custom
+          hard-surface
+          models and online assets. Intended as
+          practice for environment and lighting design, as well as hard-surface and asset development pipelines.
+          Furthermore, practice in translating a 2D concept into 3D space using lighting, texturing, and scale. <br><br>
+          This process involved assets and textures from free online stores to save time, but many models were either
+          entirely
+          made or heavily modified by myself. Beyond that, I placed a heavy emphasis on the age and wear in this scene.
+          For
+          example, the use of dust on the hardwood, or the filing cabinet drawers being opened and misaligned made the
+          space feel
+          used and alive.
+        </div>
       </div>
     </div>
 
