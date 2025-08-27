@@ -93,7 +93,7 @@ Also hides overflow.
     grid-template-rows: repeat(2, 1fr);
     align-items: center;
     justify-content: center;
-    background-color: #fffbe7;
+    background-color: #3f3244;
     background-size: 100% 100%;
     padding: 10px;
 }
