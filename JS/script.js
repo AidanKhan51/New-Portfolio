@@ -6,7 +6,7 @@
 "use strict";
 
 document.addEventListener('DOMContentLoaded', () => {
-    document.getElementById('proj1').addEventListener('click', () => {
+    document.getElementById('proj4').addEventListener('click', () => {
         openWindow();
     });
 })
