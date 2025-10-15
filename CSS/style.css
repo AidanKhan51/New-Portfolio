@@ -76,7 +76,7 @@ Also hides overflow.
     top: 500px;
     right: 0;
     width: 100%;
-    height: 50%;
+    height: 10%;
     background: black;
     animation: showRight 8.5s ease forwards;
     animation-delay: 1s;
