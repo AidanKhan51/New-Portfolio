@@ -170,7 +170,7 @@ Also hides overflow.
     margin-top: 5px;
     margin-right: 5px;
     margin-left: 5px;
-    font-size: 70px;
+    font-size: 45px;
     font-weight: bold;
 }
 
@@ -210,7 +210,7 @@ a:link {
     padding: 5px;
     padding-right: 10px;
     padding-left: 10px;
-    font-size: 25px;
+    font-size: 20px;
     border-style: solid;
     border-width: 1px;
     border-radius: 15px;
@@ -287,7 +287,7 @@ a:link {
 }
 
 .tag-title {
-    font-size: 30px;
+    font-size: 25px;
     margin-left: 5px;
     text-align: left;
     font-style: italic;
@@ -298,17 +298,44 @@ a:link {
     margin-right: 10px;
     margin-top: 60px;
     margin-bottom: 10px;
-    font-size: 21px;
+    font-size: 15px;
 }
 
-@media (orientation: portrait) {
+@media (max-width: 1500px) {
+    .grid{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    }
+
+    .button {
+    width: 45vw;
+    height: 45vw;
+
+    
+}
+}
+
+@media (max-width: 1100px) {
     .grid{
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(2, 1fr);
     }
 
     .button {
-    width: 70vw;
-    height: 70vw;
-}
+        width: 70vw;
+        height: 70vw;
+    }
+
+    .projtitle{
+        font-size: 80px;
+    }
+    .prescript{
+        font-size: 35px;
+    }
+    .tag-title{
+font-size: 50px;
+    }
+    .tagcontainer{
+font-size: 40px;
+    }
 }
