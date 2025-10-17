@@ -327,15 +327,40 @@ a:link {
     }
 
     .projtitle{
-        font-size: 80px;
+        font-size: 2em;
     }
     .prescript{
-        font-size: 35px;
+        font-size: 0px;
     }
     .tag-title{
-font-size: 50px;
+font-size: 1.2em;
     }
     .tagcontainer{
-font-size: 40px;
+font-size: 1em;
+    }
+
+    .tag{
+        font-size: 0.6em;
+    }
+
+    .bio{
+        padding:min(10vw, 350px)
+
+    }
+
+    .date{
+        font-size: 1.2em;
+    }
+    .bio{
+      padding-left: 0px;  
+    }
+
+    .projbtn{
+        
+    }
+
+    .grid{
+        padding-left: 0px;
+        justify-content: center;
     }
 }
